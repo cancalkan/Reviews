@@ -80,3 +80,5 @@ function pressRight(event){
  }
 prevBtn.addEventListener('click', sPrev)
 nextBtn.addEventListener('click', sNext)
+document.addEventListener('swiped-left', sPrev);
+document.addEventListener('swiped-right', sNext );
